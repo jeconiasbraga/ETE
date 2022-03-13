@@ -20,11 +20,11 @@ nav{
     -ms-flex: 1;
     flex: 1;
     background-image: url("/img/pexels-pixabay-262508.jpg");
-    padding: 20px;
+    padding: 0px;
 }
 .listas{
     list-style-type: none;
-    padding: 50px;
+    padding: 5px;
 }
 button{
     display: inline-block;
@@ -39,6 +39,7 @@ button{
     background-color: rgb(184, 190, 184);
     border: none;
     border-radius: 15px;
+    margin: 5px;
 }
 button:hover {
     background-color: rgba(0, 0, 0, 0.541);
