@@ -3,6 +3,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 3px 3px 5px black;
 }
 header{
     background-color: rgb(12, 11, 11);
@@ -12,15 +13,11 @@ header{
     color: blanchedalmond;
 }
 section{
-    display: -webkit-flex;
     display: flex;
 }
 nav{
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
+    flex: auto;
     background-image: url("/img/pexels-pixabay-262508.jpg");
-    padding: 0px;
 }
 .listas{
     list-style-type: none;
