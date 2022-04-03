@@ -5,77 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mundo Dev</title>
-    <!--<link rel="stylesheet" href="/css/estilo.css">-->
-    <style>
-        *{
-    box-sizing: border-box;
-}
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 3px 3px 5px black;
-}
-header{
-    background-color: rgb(12, 11, 11);
-    padding: 20px;
-    text-align: center;
-    font-size: 35px;
-    color: blanchedalmond;
-}
-section{
-    display: flex;
-}
-nav{
-    flex: auto;
-    background-image: url("/img/pexels-pixabay-262508.jpg");
-}
-.listas{
-    list-style-type: none;
-    padding: 5px;
-}
-button{
-    display: inline-block;
-    padding: 15px 25px;
-    font-size: 24px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: rgb(31, 30, 30);
-    background-color: rgb(184, 190, 184);
-    border: none;
-    border-radius: 15px;
-    margin: 5px;
-}
-button:hover {
-    background-color: rgba(0, 0, 0, 0.541);
-    color: antiquewhite;
-}
-button:active {
-    background-color: blanchedalmond;
-    transform: translate(4px);
-}
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/fovic/favicon2.ico" type="image/x-icon">
     </style>
 </head>
 <body>
-    <header>Mundo Dev</header>
-<section>
-    <nav>
-        <ul class="listas">
-            <li>
-                <a href="pages/page2.html"><button role="button">Video Aulas</button></a>
-            </li>
-            <li>
-                <a href=""><button role="button">E-Books</button></a>
-            </li>
-            <li>
-                <a href=""><button role="button">Ferramentas</button></a>
-            </li>
-            <li>
-                <a href="q-somo-page3.html"><button role="button">Quem Somos</button></a>
-            </li>
-            </ul>
-    </nav>
-</section>
+    <header class="header" id="header">
+        <div class="logo-header">
+            <img src="img/logo.png" alt="logo mundo dev">
+        </div>
+        <div class="navegador-header">
+            <a href="pages/page2.html" class="link-header" >Curso</a>
+            <a href="">E-books</a>
+            <a href="q-somo-page3.html" target="next">Sobre</a>
+            <a href="">Seja um Apoiador</a>
+            <a href="">login</a>
+            <a href="">Cadastre-se</a>
+        </div>
+    </header>
+    <main>
+        <div class="conteudo">
+            <h1>Mundo Dev a um Click</h1>
+            <h2>Trabalhar em equipe é unir várias formas de pensar para um só objetivo.</h2>
+            <button class="conteudo-botao"><a href="">Cadastre-se</a></button>
+        </div>
+    </main>
+    <footer class="final">
+        <div class="logo-final">
+            <img src="img/logo.png" alt="mundo dev">
+        </div>
+        <div class="navegador-final">
+            <a href="">mentores</a>
+            <a href="">fale conosco</a>
+        </div>
+    </footer>
 </body>
 </html>
