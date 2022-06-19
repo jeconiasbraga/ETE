@@ -3,12 +3,15 @@ body{
     font-size: 13pt;
 }
 .container{
-    width: 70%;
-    float:left;
-    margin-left: 15%;
-    margin-top: 15%;
     border: 2px solid darkblue;
     box-shadow: -2px 22px 0px 8px #0b3feb;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 80px;
+    border-radius: 14px;
 }
 h3, h5{
     text-align: center;
@@ -22,7 +25,8 @@ h3, h5{
     margin-right: 9%;
     margin-top: 5px;
     margin-bottom: 5px;
-    border: 1px solid rgb(86, 70, 224)
+    border: 1px solid rgb(86, 70, 224);
+    cursor: pointer;
 }
 #name, #email, #password, #repassword, #submit{
     color: darkblue;
