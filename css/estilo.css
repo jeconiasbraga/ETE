@@ -61,11 +61,9 @@ main{
     padding: 5em;
 }
 footer, .navegador-final{
-    position: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
-    
 
 }
 .final{
@@ -84,4 +82,9 @@ footer, .navegador-final{
 }
 .navegador-final{
     gap: 1em;
+}
+footer {
+ flex-shrink: 0;
+ padding: 20px;
+
 }

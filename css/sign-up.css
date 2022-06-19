@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+}
+.container{
+    width: 70%;
+    float:left;
+    margin-left: 15%;
+    margin-top: 15%;
+    border: 2px solid darkblue;
+    box-shadow: -2px 22px 0px 8px #0b3feb;
+}
+h3, h5{
+    text-align: center;
+    color: darkblue;
+    font-weight: 18pt;
+}
+
+#name,#email, #password, #repassword, #submit{
+    width: 80%;
+    margin-left: 8%;
+    margin-right: 9%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(86, 70, 224)
+}
+#name, #email, #password, #repassword, #submit{
+    color: darkblue;
+    padding: 8px 5px 5px 8px;
+}
+#submit{
+    width: 83%;
+    margin-left: 8%;
+    margin-top: 9%;
+    background-color: darkblue;
+    color: aliceblue;
+}
+span a{
+    width: 80%;
+    margin-left: 8%;
+    margin-right: 9%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+
+}
